@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ricardo Binz — Data Scientist</title>
+  <meta name="description" content="Portfolio website of Ricardo Binz, a Data Scientist specializing in machine learning, analytics, and data products." />
+  <meta name="author" content="Ricardo Binz" />
+  <meta property="og:title" content="Ricardo Binz — Data Scientist" />
+  <meta property="og:description" content="Portfolio website of Ricardo Binz, showcasing projects, skills, and experience in machine learning and data science." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:image" content="assets/favicon.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ricardo Binz — Data Scientist" />
+  <meta name="twitter:description" content="Portfolio website of Ricardo Binz, showcasing projects, skills, and experience in machine learning and data science." />
+  <meta name="theme-color" content="#0b0b0f" id="theme-color-meta" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ricardo Binz",
+    "jobTitle": "Data Scientist",
+    "url": "#",
+    "sameAs": []
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#home" class="logo" aria-label="Ricardo Binz home">
+        <img src="assets/logo.svg" alt="RB logo" width="32" height="32" />
+        <span class="logo-text">Ricardo Binz</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" role="navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+              <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66 6.66 1.41 1.41M4.93 4.93 6.34 6.34m11.32-1.41 1.41-1.41M4.93 19.07 6.34 17.66" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+              <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" fill="currentColor"/></svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="section hero">
+      <div class="container hero-inner reveal">
+        <div class="hero-content">
+          <p class="eyebrow">Hi, I'm</p>
+          <h1 class="headline">Ricardo Binz</h1>
+          <h2 class="subhead"><span class="gradient-text">Data Scientist</span></h2>
+          <p class="tagline">I build machine learning systems and data products that turn raw data into business impact.</p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb">
+            <img src="assets/profile_pic.jpeg" alt="Photo of Ricardo Binz" loading="eager" />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">Scroll</div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-2 reveal">
+        <div>
+          <h3>About</h3>
+          <p>
+            I'm a Data Scientist focused on building reliable, production-grade ML solutions. I enjoy the full lifecycle from exploratory analysis and feature engineering to model deployment and monitoring.
+          </p>
+          <p>
+            My toolkit spans classical ML, deep learning, NLP, time series, and experiment design. I care about clear communication and measurable outcomes.
+          </p>
+          <ul class="stats">
+            <li><span class="stat">5+ </span>years experience</li>
+            <li><span class="stat">20+ </span>projects delivered</li>
+            <li><span class="stat">∞ </span>curiosity</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="card">
+            <h4>What I love</h4>
+            <ul class="checklist">
+              <li>End-to-end ML pipelines</li>
+              <li>Turning notebooks into services</li>
+              <li>Well-instrumented experiments</li>
+              <li>Readable, tested code</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>Currently exploring</h4>
+            <ul class="checklist">
+              <li>LLM applications and RAG</li>
+              <li>Forecasting at scale</li>
+              <li>Efficient fine-tuning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container reveal">
+        <h3>Skills</h3>
+        <div class="skills">
+          <span class="chip">Python</span>
+          <span class="chip">R</span>
+          <span class="chip">SQL</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">NumPy</span>
+          <span class="chip">scikit-learn</span>
+          <span class="chip">XGBoost</span>
+          <span class="chip">TensorFlow</span>
+          <span class="chip">PyTorch</span>
+          <span class="chip">NLP</span>
+          <span class="chip">Time Series</span>
+          <span class="chip">Experimentation</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Airflow</span>
+          <span class="chip">MLflow</span>
+          <span class="chip">Azure</span>
+          <span class="chip">AWS</span>
+          <span class="chip">GCP</span>
+          <span class="chip">Dashboards</span>
+          <span class="chip">Data Visualization</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <h3>Projects</h3>
+        <div class="grid-3">
+          <article class="card project">
+            <div class="thumb" aria-hidden="true">
+              <img src="assets/iet_pic.png" alt="VRFT applied to cascade control" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <div class="content">
+              <h4>Virtual Reference Feedback Tuning Applied to Cascade Control</h4>
+              <p>Application of VRFT to two cascade control structures for single-input systems. Derives optimal/practical filters for underparameterised controllers and a single-experiment approach for internal feedback-loop design; simulations show improved tracking and disturbance rejection.</p>
+              <div class="tags"><span>IET</span><span>VRFT</span><span>Control</span><span>Research</span></div>
+              <div class="actions">
+                <a class="btn small" href="https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cta.2020.0620" target="_blank" rel="noopener">Paper</a>
+              </div>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="thumb" aria-hidden="true">
+              <img src="assets/ifac_pic.jpg" alt="Furuta Pendulum System" style="width:100%;height:100%;object-fit:cover">
+            </div>
+            <div class="content">
+              <h4>Iterative Learning Control Strategy for a Furuta Pendulum System with Variable-Order Linearization</h4>
+              <p>Peer-reviewed IFAC article on ILC for a nonlinear Furuta Pendulum with variable-order linearization; introduces an observability-matrix inversion approach.</p>
+              <div class="tags"><span>IFAC</span><span>ILC</span><span>Control</span><span>Research</span></div>
+              <div class="actions">
+                <a class="btn small" href="https://www.sciencedirect.com/science/article/pii/S240589632102190X" target="_blank" rel="noopener">Paper</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container reveal">
+        <h3>Experience</h3>
+        <ol class="timeline">
+          <li>
+            <div class="time">Jan 2022 — Present</div>
+            <div class="card">
+              <h4>Data Scientist · OPEN PRICER SAS</h4>
+              <p><em>Digital pricing platform, 30 employees, ~€3M revenue</em></p>
+              <ul class="checklist">
+                <li>Led end-to-end ML platform implementations delivering +4 EBIT points via price recommendations for enterprise clients.</li>
+                <li>Built price grid generator using regression and classification techniques, reducing time to quote by 20%.</li>
+                <li>Developed price elasticity models from transactional data, increasing sales Win Rate by 10%.</li>
+                <li>Designed and analyzed A/B tests for pricing strategy effectiveness; delivered clear recommendations for leadership.</li>
+                <li>Acted as key technical partner in client adoption: product architecture explanations, demos, ROI, and workshops.</li>
+                <li>Architected LLM/AI agents for market intelligence, improving global sales team response time by 50%.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="time">Jun 2021 — Nov 2021</div>
+            <div class="card">
+              <h4>Data Science Consultant · EKIMETRICS</h4>
+              <p><em>Marketing analytics consultancy, 400 employees</em></p>
+              <ul class="checklist">
+                <li>Applied marketing mix modeling to assess media ROI, driving a 4.1% cost optimization for automotive and telecom clients.</li>
+                <li>Translated MMM results into compelling narratives for C-level and technical stakeholders.</li>
+                <li>Developed reusable Python pipelines for data processing, reducing project time by 50% and eliminating manual inconsistencies.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="time">Dec 2018 — Dec 2021</div>
+            <div class="card">
+              <h4>Data Science Researcher · IETR Research Laboratory</h4>
+              <p><em>Advanced optimization research</em></p>
+              <ul class="checklist">
+                <li>Developed ILC trajectory tracking achieving 99% precision; published in IFAC journal.</li>
+                <li>Created VRFT methodology for cascade control (90% accuracy); published in IET journal.</li>
+                <li>Authored peer-reviewed papers (IFAC/IET) and presented findings to cross-functional audiences.</li>
+                <li>Led joint AI research with Brazilian and French institutions, translating research into deployable solutions.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="container reveal">
+        <h3>Education</h3>
+        <ol class="timeline">
+          <li>
+            <div class="time">2019 — 2023</div>
+            <div class="card">
+              <h4>CentraleSupélec · Paris, France</h4>
+              <p>Masters of Engineering</p>
+              <ul class="checklist">
+                <li>GPA: 3.9/4.5</li>
+                <li>Awards: Eiffel Excellence Scholarship (top-performing international)</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="time">2017 — 2022</div>
+            <div class="card">
+              <h4>UFRGS · Porto Alegre, Brazil</h4>
+              <p>Bachelor's, Control and Automation Engineering</p>
+              <ul class="checklist">
+                <li>GPA: 9.5/10</li>
+                <li>Awards: Engineering Council's Honors Degree (top-performing student)</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <h3>Contact</h3>
+        <p>
+          Want to collaborate or have an opportunity? I'm open to impactful projects.
+        </p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:ricardobinz@gmail.com">Email me</a>
+          <a class="btn ghost" href="assets/RBinz Resume Data Scientist.pdf" download>Download CV</a>
+        </div>
+        <ul class="social">
+          <li><a href="https://github.com/ricardobinz/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ricardobinz/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ricardo Binz. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Ricardo Binz — Personal Website
 
-A modern, responsive personal website for Ricardo Binz, Data Scientist. Built with vanilla HTML/CSS/JS for fast performance and easy hosting anywhere (GitHub Pages, Netlify, Vercel, etc.).
+A modern, responsive personal website. Built with vanilla HTML/CSS/JS for fast performance and easy hosting anywhere (GitHub Pages, Netlify, Vercel, etc.).
 
 ## Structure
 
